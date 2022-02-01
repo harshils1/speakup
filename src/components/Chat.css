@@ -1,0 +1,61 @@
+.chat {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat_header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.chat_header > .icon {
+  border: 1px solid rgb(192, 188, 188);
+}
+
+.headerInfo {
+  padding-left: 20px;
+  flex: 1;
+}
+
+.headerInfo > p {
+  color: rgb(109, 108, 108);
+}
+
+.chat_message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: fit-content;
+  margin-bottom: 20px;
+}
+
+.chat_headerRight {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.chat_name {
+  position: absolute;
+  top: 0px;
+  font-size: xx-small;
+  font-weight: 800;
+}
+
+.chat_time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_body {
+  flex: 1;
+  background-repeat: repeat;
+  padding: 30px;
+  overflow-y: auto;
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2019/05/06/minimal-blue-sphere-wallpaper.jpg");
+}
