@@ -40,11 +40,17 @@
   min-width: 100px;
 }
 
+.chat_reciever {
+  margin-left: auto;
+  background-color: rgb(119, 164, 216);
+}
+
 .chat_name {
   position: absolute;
-  top: 0px;
-  font-size: xx-small;
-  font-weight: 800;
+  top: -15px;
+  font-size: x-small;
+  font-weight: 700;
+  color: white;
 }
 
 .chat_time {
@@ -58,4 +64,32 @@
   padding: 30px;
   overflow-y: auto;
   background-image: url("https://free4kwallpapers.com/uploads/originals/2019/05/06/minimal-blue-sphere-wallpaper.jpg");
+}
+
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+}
+
+.chat_footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat_footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.chat_footer > form > button {
+  display: none;
+}
+
+.chat_footer > .MuiSvgIcon-root {
+  padding: 10px;
 }
